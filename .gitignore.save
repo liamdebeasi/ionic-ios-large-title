@@ -31,6 +31,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+module.js.map (searchbar-searchbar-module) 6.58 kB  [rendered]
 
 # Dependency directories
 node_modules/
@@ -59,10 +60,3 @@ typings/
 
 # next.js build output
 .next
-
-# Capacitor Platform
-ios/*
-android/*
-
-# Ionic Build
-www/*

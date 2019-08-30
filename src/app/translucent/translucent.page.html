@@ -1,0 +1,28 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-buttons collapse>
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons> 
+    <ion-title>Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-header collapse="true">
+    <ion-toolbar>
+      <ion-title size="large">Settings</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-list>
+    <ion-item button *ngFor="let item of items" routerLink="/child">
+      <ion-badge slot="start" class="item-badge ion-align-self-start">&nbsp;</ion-badge>
+      <ion-label>
+        <h2>Heading {{i}}</h2>
+        <h3>Smaller heading {{i}}</h3>
+        <p>Paragraph {{i}}</p>
+      </ion-label>
+
+    </ion-item>
+  </ion-list>
+</ion-content>
